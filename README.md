@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Run the Streamlit app:
 
 ```bash
-streamlit run app.py
+streamlit run chat.py
 ```
 This will launch the Conversational Chatbot in your browser.
 
