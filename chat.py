@@ -45,8 +45,8 @@ with st.sidebar:
 # Function for generating LLM response with context
 async def generate_response(prompt_input):
     response= await llm_chain.acall(prompt_input)
-    # answer_text = response["text"].split("\n")[-1]
-    return response
+    answer_text = response["text"].split("\n")[-1]
+    return answer_text
 
 # User-provided prompt
 prompt = st.chat_input()
