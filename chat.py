@@ -40,13 +40,22 @@ with st.sidebar:
     st.title('Falcon 7B Chatbot')
     st.subheader('Model')
     selected_model = st.sidebar.selectbox('Choose a Falcon model', ['Falcon-7b'], key='selected_model')
+    st.info("Hints: The answers will be summarized in 4 to 5 lines.")
+
     st.button('Clear Chat History', on_click=clear_chat_history)
 
 # Function for generating LLM response with context
 async def generate_response(prompt_input):
     response= await llm_chain.acall(prompt_input)
     answer_text = response["text"].split("\n")[-1]
-    return answer_text
+    # Summarize the answer
+    summarized_answer = summarize_answer(answer_text)
+    return summarized_answer
+
+def summarize_answer(answer_text):
+    # Summarize the answer to 4-5 lines
+    summarized_answer = " ".join(answer_text.split()[:100])  # Assuming 20 words per line and 5 lines
+    return summarized_answer
 
 # User-provided prompt
 prompt = st.chat_input()
