@@ -1,7 +1,7 @@
 # Conversational Chatbot with LangChain using Streamlit
-![image](https://github.com/sai-annadi/Conversational-Chatbot-with-LangChain-Using-Falcon-7B/assets/111168434/89e7b0f9-2480-4004-8471-33984d2b52b9)
+![image](https://github.com/sai-annadi/Conversational-Chatbot-with-LangChain-Using-Falcon-7B/assets/111168434/dc1fe414-bbc2-4784-b04f-7fe8f62630a2)
 
-![image](https://github.com/sai-annadi/Conversational-Chatbot-with-LangChain-Using-Falcon-7B/assets/111168434/c6a31332-ef56-461a-8bda-c9b098f25b3a)
+![image](https://github.com/sai-annadi/Conversational-Chatbot-with-LangChain-Using-Falcon-7B/assets/111168434/23409651-33e5-4767-bac0-da1050fcefeb)
 
 Welcome to the Conversational Chatbot project powered by LangChain and Streamlit. This chatbot leverages the Falcon 7B Instruct model from Hugging Face for natural language processing.
 
