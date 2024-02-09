@@ -1,3 +1,5 @@
-langchain
-streamlit
-dotenv
+streamlit==1.25.0
+pandas==2.0.3
+numpy==1.25.2
+langchain==0.1.6
+dotenv==0.0.5
