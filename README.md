@@ -3,10 +3,10 @@
 
 ![image](https://github.com/sai-annadi/Conversational-Chatbot-with-LangChain-Using-Falcon-7B/assets/111168434/23409651-33e5-4767-bac0-da1050fcefeb)
 
-Description:
+### Description:
 This GitHub repository contains the source code for a Streamlit-based chatbot called Falcon 7B. The chatbot leverages the power of the Hugging Face Hub and language models to provide intelligent responses to user queries.
 
-Key Components:
+### Key Components:
 
 Streamlit Application: The main application is built using Streamlit, a Python library for creating interactive web apps. Users can interact with the chatbot directly through the Streamlit interface.
 
@@ -18,7 +18,7 @@ LLMChain: This component manages the interaction between the prompt template and
 
 Clear Chat History: Users have the option to clear the chat history using a dedicated button in the sidebar.
 
-Usage:
+### Usage:
 
 Model Selection: Users can choose from different Falcon models available in the sidebar.
 
